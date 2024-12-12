@@ -1,0 +1,21 @@
+body {
+    background-color: #28282B;
+    color: whitesmoke;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(32, 32, 32);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(190, 190, 190);
+    border-radius: 10px;
+}
