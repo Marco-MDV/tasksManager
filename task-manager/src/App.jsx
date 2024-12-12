@@ -9,7 +9,6 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
-      
       <Router>
         <Navbar/>
         <Routes>
