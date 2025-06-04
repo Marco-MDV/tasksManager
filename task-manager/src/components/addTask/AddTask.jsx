@@ -1,7 +1,7 @@
 export default function AddTask({writeTask, addTask}) {
   
   return (
-    <div className='w-full h-full flex flex-col justify-center items-center p-2 md:row-start-2 md:col-start-2 md:col-end-6 lg:col-start-3 lg:col-end-5'>
+    <div className='w-full h-full flex flex-col justify-center items-center p-2 md:row-start-2 md:col-start-2 md:col-end-6 lg:col-start-3 lg:col-end-7 xl:col-end-5'>
       <div className="flex flex-col justify-center items-center gap-8 backdrop-blur-xl bg-white/30 py-2 rounded-md w-full">
         <h2 className='text-3xl font-bold'>Write yuor task!</h2>
         <div className='flex flex-col md:flex-row gap-2 w-full p-4 '>

@@ -12,7 +12,7 @@ export default function NotePad({ tasks, taskArr, setTaskArr }) {
           </div>
           :
           <div className='bg-white text-black text-xl w-full rounded animation-200 overflow-y-auto h-96 break-words flex justify-center items-center shadow-2xl'>
-            <p className='text-8xl font-bold'>Write a <br /> task</p>
+            <p className='text-6xl md:text-8xl font-bold'>Write a <br /> task</p>
           </div>
         }
       </div>
